@@ -8,7 +8,7 @@ const user = {}
 
 const Navbar = () => {
     const router = useRouter()
-    
+
     return (
         <header className="navbar">
             <nav>
@@ -19,7 +19,7 @@ const Navbar = () => {
                 </Link>
         {user && (
             <figure>
-                <button onClick={() => router.push(href:'/profile/id')}>
+                <button onClick={() => router.push('/profile/id')}>
                     <Image src="/assets/images/dummy.jpg" alt="User" width={36} height={36} className="rounded-full aspect-square"/>
                 </button>
                 <button className="cursor-pointer">
