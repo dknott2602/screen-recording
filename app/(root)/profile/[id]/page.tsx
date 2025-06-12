@@ -1,4 +1,7 @@
 import Header from "@/components/Header";
+import { dummyCards } from "@/constants";
+import VideoCard from "@/components/VideoCard";
+
 
 const Page = async ({ params }: ParamsWithSearch) => {
   const { id } = await params;
@@ -10,8 +13,12 @@ const Page = async ({ params }: ParamsWithSearch) => {
         title="Daniel Knott"
         userImg="/assets/images/dummy.jpg"
       />
-      <h1 className="text-2xl font-karla">USER ID: {id}</h1>
-    </div>
+      <section className="video-grid">
+      {dummyCards.map((card) => (
+        <VideoCard key={card.id} {...card} />
+      ))}
+      </section>
+      </div>
   );
 };
 
