@@ -1,6 +1,18 @@
 import Link from "next/link";
 import Image from "next/image";
 
+interface VideoCardProps {
+    id: string;
+    title: string;
+    thumbnail: string;
+    userImg: string;
+    username: string;
+    createdAt: Date;
+    views: number;
+    visibility: string;
+    duration: number;
+  }
+
 const VideoCard = ({
   id,
   title,

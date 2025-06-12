@@ -12,9 +12,9 @@ const Page = () => {
       id="1"
       title="Snapchat Message - 30 June 2025"
       thumbnail="/assets/samples/thumbnail (1).png"
-      createdAt={new Date(value: "2025-05-01")}
+      createdAt={new Date("2025-05-01")}
       userImg="/assets/images/jason.png"
-      uisername="Jason"
+      username="Daniel"
       views={10}
       visibility="public"
       duration={156}
