@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://dknott2602-s-workspace-ebpjlb.us-west-2.xata.sh/db/dknott_snapcast",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
