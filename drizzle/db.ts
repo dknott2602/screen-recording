@@ -1,5 +1,5 @@
 import { drizzle } from "drizzle-orm/xata-http";
-import { getXataClient } from "@xata";
+import { getXataClient } from "@/xata";
 
 const xata = getXataClient()
 
